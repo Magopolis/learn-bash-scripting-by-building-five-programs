@@ -96,3 +96,7 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git remote -v
 git remote set-url https://github.com/Magopolis/learn-bash-scripting-by-building-five-programs.git
 git remote set-url origin https://github.com/Magopolis/learn-bash-scripting-by-building-five-programs.git
+git remote remove origi https://github.com/Magopolis/learn-bash-scripting-by-building-five-programs.git
+git remote add origin https://github.com/Magopolis/learn-bash-scripting-by-building-five-programs.git
+git remote -v
+git add .
