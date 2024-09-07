@@ -100,3 +100,8 @@ git remote remove origi https://github.com/Magopolis/learn-bash-scripting-by-bui
 git remote add origin https://github.com/Magopolis/learn-bash-scripting-by-building-five-programs.git
 git remote -v
 git add .
+git commit -m "4th attempt"
+git push origin main
+git pull origin main
+git pull --no-rebase
+git add .
