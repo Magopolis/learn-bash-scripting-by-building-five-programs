@@ -157,3 +157,4 @@ ls --color=auto
 ls --color=auto /
 ld /bin
 ls --color=auto /bin
+man sleep
