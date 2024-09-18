@@ -231,3 +231,9 @@ help while
 touch bing.sh
 touch bingo.sh
 chmod +x bingo.sh
+ls --color=auto
+bingo.sh
+./bingo.sh
+which bash
+nano bingo.sh
+rm bing.sh
