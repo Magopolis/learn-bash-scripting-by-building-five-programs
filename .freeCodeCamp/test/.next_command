@@ -237,3 +237,4 @@ bingo.sh
 which bash
 nano bingo.sh
 rm bing.sh
+./bingo.sh
