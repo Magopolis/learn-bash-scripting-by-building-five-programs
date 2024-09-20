@@ -326,3 +326,4 @@ echo $j bingo.sh countdown.sh questionnaire.sh 5 + 25
 echo $(( J bingo.sh countdown.sh questionnaire.sh 5 + 25 ))
 echo $j
 echo $J
+declare -p
