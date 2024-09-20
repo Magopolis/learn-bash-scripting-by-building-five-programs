@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile # If you have a Dockerfile, otherwise this can be omitted
+
+tasks:
+  - command: npm install # Change this to the appropriate command for your project
+
+vscode:
+  extensions:
+    - coderoad.coderoad
