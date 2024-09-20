@@ -328,3 +328,5 @@ echo $j
 echo $J
 declare -p
 declare -p J
+declare -p $RANDOM
+declare -p RANDOM
