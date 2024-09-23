@@ -379,3 +379,5 @@ touch forthune.sh
 mv forthune.sh fortune.sh
 rm fortune.sh
 touch fortune.sh
+chmod +x
+chmod +x fortune.sh
