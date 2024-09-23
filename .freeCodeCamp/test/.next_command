@@ -370,3 +370,4 @@ echo $(( RANDOM%75 + 1 ))
 help let
 HELP TEST
 help test
+./bingo.sh
