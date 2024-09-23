@@ -381,3 +381,4 @@ rm fortune.sh
 touch fortune.sh
 chmod +x
 chmod +x fortune.sh
+./fortune.sh
