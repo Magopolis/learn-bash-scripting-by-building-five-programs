@@ -372,3 +372,10 @@ HELP TEST
 help test
 ./bingo.sh
 ./bingo.sh
+./bingo.sh
+./bingo.sh
+./bingo.sh
+touch forthune.sh
+mv forthune.sh fortune.sh
+rm fortune.sh
+touch fortune.sh
