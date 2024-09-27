@@ -3,7 +3,7 @@
 # Program to tell a persons fortune
 
 echo -e "\n~~ Fortune Teller ~~\n"
-
+VAR="hello world"
 RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
 N=$(( RANDOM % 6 ))
 
