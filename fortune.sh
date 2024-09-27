@@ -10,8 +10,10 @@ N=$(( RANDOM % 6 ))
 GET_FORTUNE() {
   echo Ask a yes or no question:
 }
-
+until [[ $QUESTION == test? ]]
+do
 GET_FORTUNE
 
-echo ${RESPONSES[$N]}
 read QUESTION
+done
+echo ${RESPONSES[$N]}
