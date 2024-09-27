@@ -13,6 +13,10 @@ GET_FORTUNE() {
 until [[ $QUESTION =~ \?$ ]]
 do
 GET_FORTUNE
+if [[ ! $1 ]]
+then
+  STATEMENTS
+fi
 
 read QUESTION
 done
