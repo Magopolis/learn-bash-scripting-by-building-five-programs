@@ -12,7 +12,7 @@ GET_FORTUNE() {
 }
 until [[ $QUESTION =~ \?$ ]]
 do
-GET_FORTUNE
+GET_FORTUNE again
 if [[ ! $1 ]]
 then
   echo Try again. Make sure it ends with a question mark:
