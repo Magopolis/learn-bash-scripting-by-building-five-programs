@@ -21,4 +21,5 @@ fi
 
 read QUESTION
 done
-echo ${RESPONSES[$N]}
+
+echo -e "\n${RESPONSES[$N]}"
