@@ -531,3 +531,4 @@ help until
 ./fortune.sh
 help [[ expression ]]
 [[ hello == hello ]]
+[[ hello == world ]]
