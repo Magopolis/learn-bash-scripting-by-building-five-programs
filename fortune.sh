@@ -10,7 +10,7 @@ N=$(( RANDOM % 6 ))
 GET_FORTUNE() {
   echo Ask a yes or no question:
 }
-until [[ $QUESTION == test? ]]
+until [[ $QUESTION =~ \?$ ]]
 do
 GET_FORTUNE
 
