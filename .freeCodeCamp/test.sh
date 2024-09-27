@@ -1,7 +1,11 @@
 #!/bin/bash
 
 # Program to tell a persons fortune
-RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+
 echo -e "\n~~ Fortune Teller ~~\n"
 
-declare -p RESPONSES
+RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+N=$(( RANDOM % 6 ))
+echo ${RESPONSES[5]}
+
+echo $N
