@@ -625,3 +625,4 @@ help type
 type echo
 type type read
 type read
+type if
